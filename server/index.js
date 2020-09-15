@@ -26,6 +26,7 @@ mongoose.connect(config.mongoURI, {
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
+app.get('/api/hello', (req, res) => res.send('hello react'))
 //회원가입 라우터
 app.post('/api/users/register', (req, res) => {
     //클라이언트에서 보내주는 데이터들을 가져오면
