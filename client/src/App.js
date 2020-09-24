@@ -10,13 +10,10 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" component={LandingPage}>
-            {/* <LandingPage /> */}
           </Route>
           <Route exact path="/login" component={LoginPage}>
-            {/* <LoginPage /> */}
           </Route>
           <Route exact path="/register" component={RegisterPage}>
-            {/* <RegisterPage /> */}
           </Route>
         </Switch>
       </div>
