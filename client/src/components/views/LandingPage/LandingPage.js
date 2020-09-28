@@ -5,7 +5,6 @@ import { useSelector } from "react-redux";
 
 function LandingPage(props) {
     const user = useSelector(state => state.user)
-    console.log(user)
 
     // useEffect(() => {
     //     axios.get('/api/hello') //cors(보안문제) => proxy로 해결 
